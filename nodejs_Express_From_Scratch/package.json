@@ -1,0 +1,27 @@
+{
+  "name": "nodejs_express_from_scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "concurrently": "*",
+    "dotenv": "*",
+    "express": "*",
+    "express-handlebars": "*",
+    "moment": "*",
+    "mongoose": "^5.13.5",
+    "morgan": "*",
+    "pug": "*"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
